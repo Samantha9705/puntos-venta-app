@@ -43,7 +43,8 @@ const PieChartSalesByZone = () => {
   }, []);
 
   return (
-    <ResponsiveContainer width="100%" height={500}>
+    <ResponsiveContainer width="100%" height={400}>
+
       <PieChart>
         <Pie
           data={groupedData}
@@ -51,7 +52,7 @@ const PieChartSalesByZone = () => {
           cy="50%"
           labelLine={false}
           label={renderCustomizedLabel}
-          outerRadius={200}
+          outerRadius={160}
           fill="#8884d8"
           dataKey="value"
         >

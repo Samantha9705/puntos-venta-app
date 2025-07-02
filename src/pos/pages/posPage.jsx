@@ -45,18 +45,19 @@ const PosPage = () => {
 
       </div>
 
-      <div className="row g-4 align-items-stretch">
-        <div className="col-md-6">
-          <div className="pos-page-map-wrapper h-100">
-            <MapPos puntos={FilterPoint} />
-          </div>
-        </div>
-        <div className="col-md-6">
-          <div className="pos-page-chart-wrapper h-100">
-            <PieChartSalesByZone data={FilterPoint} />
-          </div>
-        </div>
-      </div>
+      <div className="row g-4">
+  <div className="col-12 col-md-6">
+    <div className="pos-page-map-wrapper w-100" style={{ minHeight: '300px', height: '100%' }}>
+      <MapPos puntos={FilterPoint} />
+    </div>
+  </div>
+  <div className="col-12 col-md-6">
+    <div className="pos-page-chart-wrapper w-100" style={{ minHeight: '300px', height: '100%' }}>
+      <PieChartSalesByZone data={FilterPoint} />
+    </div>
+  </div>
+</div>
+
     </div>
 
   );
