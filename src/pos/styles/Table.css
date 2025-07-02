@@ -1,0 +1,45 @@
+/* Config general */
+.table-custom {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px; 
+  font-family: 'Segoe UI', sans-serif;
+  background-color: whitesmoke; 
+  color: #00809D;
+  box-shadow: 0 2px 8px rgba(0, 128, 157, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+/* Encabezado */
+.table-custom thead tr {
+  background-color: #00809D; 
+  color: whitesmoke; 
+  text-align: left;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 8px 8px 0 0;
+}
+.table-custom thead th {
+  padding: 12px 20px;
+  vertical-align: middle;
+}
+
+/* Cuerpo */
+.table-custom tbody tr {
+  background-color: whitesmoke;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 128, 157, 0.1);
+}
+
+.table-custom tbody td {
+  padding: 14px 20px;
+  vertical-align: middle;
+  border-bottom: none;
+  color: #00809D;
+}
+.table-custom tbody td:last-child {
+  text-align: right;
+  white-space: nowrap;
+}
+

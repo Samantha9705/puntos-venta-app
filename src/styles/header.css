@@ -1,0 +1,65 @@
+/* Header y Navbar */
+
+.navbar {
+  background-color: #00809D !important; /* azul principal */
+  padding: 0.75rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 128, 157, 0.3);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: whitesmoke !important; /* crema para el texto */
+  letter-spacing: 1px;
+}
+
+.navbar-brand:hover {
+  color: #FF7601 !important; /* naranja vibrante al pasar hover */
+}
+
+/* Navbar */
+
+.nav-link {
+  color: whitesmoke !important; /* texto crema */
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #F3A26D !important; /* naranja pastel para hover */
+  text-decoration: underline;
+}
+
+/* Botón hamburguesa */
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23whitesmoke' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.collapse.show {
+  background-color: #00809D;
+  padding: 1rem 1.5rem;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 4px 12px rgba(0,128,157,0.25);
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+    padding: 0.75rem 0;
+  }
+}

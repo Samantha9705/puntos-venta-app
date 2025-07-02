@@ -1,0 +1,101 @@
+
+
+.pos-register-container {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.pos-register-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pos-register-button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.pos-register-add-button {
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+}
+
+.pos-register-modal-description {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.pos-register-table-wrapper {
+  overflow-x: auto;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+  border-radius: 6px;
+}
+
+.pos-register-edit-button-wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilos globales para todos los formularios */
+form {
+  background-color: whitesmoke; 
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 128, 157, 0.15); 
+  max-width: 600px;
+  margin: 0 auto;
+  color: #00809D;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+form label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+  color: #00809D;
+}
+
+.form-control, .form-select {
+  border: 2px solid #FF7601; 
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  color: #00809D;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #F3A26D;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: #FF7601;
+  border: none;
+  padding: 12px 30px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+  display: block;
+  margin: 1.5rem auto 0;
+  max-width: 200px;
+}
+
+.btn-primary:hover {
+  background-color: #F3A26D;
+}

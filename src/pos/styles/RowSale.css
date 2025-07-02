@@ -1,0 +1,25 @@
+.btn-editar {
+  background-color: #FF7601;
+  color: whitesmoke;
+  border: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-editar:hover {
+  background-color: #e36900; 
+  color: #fff;
+}
+
+.btn-eliminar {
+  background-color: #00809D; 
+  color: whitesmoke;
+  border: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-eliminar:hover {
+  background-color: #00697a; 
+  color: #fff;
+}

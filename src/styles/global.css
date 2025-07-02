@@ -1,0 +1,168 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Body, layout y tipografias */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: whitesmoke; 
+  color: #00809D; 
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1, h2, h3 {
+  color: #00809D;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Botones */
+.boton-principal {
+  background-color: #FF7601 !important; 
+  color: whitesmoke !important; 
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 12px 24px !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  box-shadow: 0 2px 8px rgba(255, 118, 1, 0.4);
+  transition: background-color 0.3s ease;
+}
+
+.boton-principal:hover {
+  background-color: #F3A26D !important; 
+  box-shadow: 0 4px 12px rgba(243, 162, 109, 0.6);
+}
+
+.boton-principal:active {
+  background-color: #d37700 !important; 
+  box-shadow: none;
+}
+
+.boton-secundario {
+  background-color: whitesmoke !important; 
+  color: #00809D !important; 
+  border: 2px solid #00809D !important;
+  padding: 12px 24px !important;
+  border-radius: 8px !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease;
+  max-width: 300px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgba(0, 128, 157, 0.2);
+}
+
+.boton-secundario:hover {
+  background-color: #00809D !important; 
+  color: whitesmoke !important; 
+  border-color: #F3A26D !important; 
+  box-shadow: 0 4px 12px rgba(0, 128, 157, 0.5);
+}
+
+.boton-secundario:active {
+  background-color: #005f70 !important; 
+  border-color: #F3A26D !important;
+  box-shadow: none;
+}
+
+.add-button {
+  background-color: #FF7601; 
+  color: whitesmoke !important; 
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 3px 8px rgba(255, 118, 1, 0.4);
+}
+
+.add-button:hover {
+  background-color: #F3A26D;
+}
+
+.add-button:active {
+  background-color: #e26f00;
+  
+}
+
+.zone-filter-select {
+  background-color: whitesmoke;
+  color: #00809D;
+  border: 2px solid #00809D;
+  border-radius: 8px;
+  padding: 10px 14px;
+  padding-right: 40px; 
+  font-size: 1rem;
+  font-weight: 500;
+  appearance: none; 
+  background-image: url("data:image/svg+xml,%3Csvg fill='%2300809D' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5H7z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 128, 157, 0.1);
+}
+
+.zone-filter-select:focus {
+  outline: none;
+  border-color: #FF7601;          /* naranja en focus */
+  box-shadow: 0 0 0 3px rgba(255, 118, 1, 0.2);
+}
+
+.zone-filter-select option {
+  background-color: #ffffff;
+  color: #00809D;
+}
+
+/* footer abajo */
+main {
+  flex-grow: 1;
+}
+
+/* Mapa */
+#map {
+  height: 180px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

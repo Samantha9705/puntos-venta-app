@@ -1,0 +1,89 @@
+.modal-open {
+  overflow: hidden;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 128, 157, 0.268); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+  padding: 1rem;
+}
+
+.modal-dialog {
+  max-width: 700px;      
+  width: 90%;
+  max-height: 100vh;       
+  overflow-y: auto;
+  background-color:white; 
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 128, 157, 0.3);
+  overflow: hidden;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.modal-header {
+  background-color: transparent; 
+  color: #00809D; 
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.03em;
+  
+  text-shadow: none;
+}
+
+.btn-close {
+  background: transparent;
+  border: none;
+  font-size: 1.4rem;
+  color: #FF7601;
+  cursor: pointer;
+  line-height: 1;
+  transition: color 0.3s ease;
+}
+
+.btn-close:hover {
+  color: #00809D;
+}
+
+.modal-footer {
+  background-color: transparent;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+
+.modal-footer .btn-secondary {
+  background-color: #00809D;
+  border: none;
+  color: whitesmoke;
+  padding: 8px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 128, 157, 0.3);
+}
+
+.modal-footer .btn-secondary:hover {
+  background-color: #00697a;
+  box-shadow: 0 4px 12px rgba(0, 105, 122, 0.5);
+}

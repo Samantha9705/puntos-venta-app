@@ -1,0 +1,11 @@
+.footer-custom {
+  background-color: #00809D; /* azul principal */
+  color: whitesmoke; /* crema suave para texto */
+  text-align: center;
+  padding: 12px 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+  flex-shrink: 0; /* para que no se reduzca si hay poco contenido */
+  box-shadow: 0 -2px 8px rgba(0, 128, 157, 0.3);
+  width: 100%;
+}
